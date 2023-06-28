@@ -11,12 +11,12 @@
 */
 
 // Напишите программу, которая принимает на вход одно число и возвращает сумму чисел от 1 до n.
-Console.Clear();
-Console.Write("Введите число: ");
-int n = int.Parse(Console.ReadLine()!), result = 0;
-for (int i = 1; i <= n; i++)
-    result += i;
-Console.WriteLine($"Сумма чисел от 1 до {n} = {result}");
+// Console.Clear();
+// Console.Write("Введите число: ");
+// int n = int.Parse(Console.ReadLine()!), result = 0;
+// for (int i = 1; i <= n; i++)
+//     result += i;
+// Console.WriteLine($"Сумма чисел от 1 до {n} = {result}");
 // Console.WriteLine(((1 + n) / 2.0) * n);
 // Sn = ((a0 + an) / 2) * n = ((1 + n) / 2) * n
 // (1 + 10) / 2.0 = 5.5
@@ -59,27 +59,27 @@ Console.WriteLine($"Сумма чисел от 1 до {n} = {result}");
 // Последовательность Фибонначчи
 
 
-// int fib(int n)
-// {
-//     if (n == 0)
-//         return 0;
-//     if (n == 1)
-//         return 1;
-//     return fib(n - 1) + fib(n - 2);
-// }
+int fib(int n)
+{
+    if (n == 0)
+        return 0;
+    if (n == 1)
+        return 1;
+    return fib(n - 1) + fib(n - 2);
+}
 
 
-// Console.Clear();
-// Console.Write("Введите число: ");
-// int n = int.Parse(Console.ReadLine()!), a0 = 0, a1 = 1, x;
-// for (int i = 0; i < n; i++)
-// {
-//     x = a0 + a1;
-//     a0 = a1;
-//     a1 = x;
-// }
-// Console.WriteLine($"I - {a0}"); // O(39)
-// Console.WriteLine($"II(рекурсия) - {fib(n)}"); // O(2 ^ 39)
+Console.Clear();
+Console.Write("Введите число: ");
+int n = int.Parse(Console.ReadLine()!), a0 = 0, a1 = 1, x;
+for (int i = 0; i < n; i++)
+{
+    x = a0 + a1;
+    a0 = a1;
+    a1 = x;
+}
+Console.WriteLine($"I - {a0}"); // O(39)
+Console.WriteLine($"II(рекурсия) - {fib(n)}"); // O(2 ^ 39)
 // 0 1 1 2 3 5 8
 // 0 1 2 3 4 5 6 7
 
