@@ -11,12 +11,12 @@
 */
 
 // Напишите программу, которая принимает на вход одно число и возвращает сумму чисел от 1 до n.
-// Console.Clear();
-// Console.Write("Введите число: ");
-// int n = int.Parse(Console.ReadLine()!), result = 0;
-// for (int i = 1; i <= n; i++)
-//     result += i;
-// Console.WriteLine($"Сумма число от 1 до {n} = {result}");
+Console.Clear();
+Console.Write("Введите число: ");
+int n = int.Parse(Console.ReadLine()!), result = 0;
+for (int i = 1; i <= n; i++)
+    result += i;
+Console.WriteLine($"Сумма чисел от 1 до {n} = {result}");
 // Console.WriteLine(((1 + n) / 2.0) * n);
 // Sn = ((a0 + an) / 2) * n = ((1 + n) / 2) * n
 // (1 + 10) / 2.0 = 5.5
