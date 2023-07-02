@@ -1,2 +1,2 @@
 # BootCamp
-Буткемп по рограммированию (Bootcamp on rogramming)
+Буткемп по рограммированию (Bootcamp on programming)
