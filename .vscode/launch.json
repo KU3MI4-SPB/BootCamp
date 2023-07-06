@@ -9,9 +9,9 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/Lesson_2/bin/Debug/net6.0/Lesson_2.dll",
+            "program": "${workspaceFolder}/Lesson_10/RaceOfSort.sln",
             "args": [],
-            "cwd": "${workspaceFolder}/Lesson_2",
+            "cwd": "${workspaceFolder}/Lesson_10",
             "console": "internalConsole",
             "stopAtEntry": false
         },
